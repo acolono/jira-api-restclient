@@ -332,5 +332,15 @@ class Issue
 
 		return null;
 	}
+	
+  	/**
+   	 * Get time tracking.
+   	 *
+   	 * @return array
+   	 */
+  	public function getTimeTracking()
+  	{
+    		return $this->get('Time Tracking');
+  	}
 
 }
